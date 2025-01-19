@@ -152,8 +152,8 @@ export default function GameBoard() {
         )}
 
         {stage === "rules" && (
-          <div className="bg-white rounded-xl  p-8">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6">
+          <div className=" rounded-xl">
+            <h2 className="text-xl font-bold text-gray-800 mb-6">
               Hey {playerName}! 👋
             </h2>
             <div className="space-y-6">
@@ -193,8 +193,8 @@ export default function GameBoard() {
         )}
 
         {stage === "selection" && (
-          <div className="bg-white rounded-xl   p-8">
-            <h2 className="text-2xl font-bold text-gray-800 mb-8">
+          <div className=" rounded-xl">
+            <h2 className="text-xl font-bold text-gray-800 mb-8">
               Choose Your Weapons
             </h2>
             <div className="space-y-10">
@@ -236,8 +236,8 @@ export default function GameBoard() {
         )}
 
         {stage === "computerShow" && (
-          <div className="bg-white rounded-xl  p-8">
-            <h2 className="text-2xl font-bold text-gray-800 mb-8">
+          <div className="">
+            <h2 className="text-xl font-bold text-gray-800 mb-8">
               Battle Time!
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -290,8 +290,8 @@ export default function GameBoard() {
         )}
 
         {stage === "removal" && (
-          <div className="bg-white rounded-xl p-8">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6">
+          <div className="">
+            <h2 className="text-xl font-bold text-gray-800 mb-6">
               Final Choice
             </h2>
             <p className="text-lg text-emerald-600 mb-8">
