@@ -186,7 +186,7 @@ export default function GameBoard() {
                   font-semibold hover:from-emerald-500 hover:to-emerald-600 transform hover:scale-[1.02] 
                   transition-all duration-200  "
               >
-                Let's Battle!
+                Let&apos;s Battle!
               </button>
             </div>
           </div>
@@ -261,7 +261,7 @@ export default function GameBoard() {
               </div>
               <div className="bg-rose-50 rounded-lg p-6">
                 <p className="text-lg font-medium text-rose-600 mb-4">
-                  Computer's Arsenal
+                  Computer&apos;s Arsenal
                 </p>
                 <div className="flex justify-center gap-6">
                   {computerChoices.map(
@@ -349,7 +349,7 @@ export default function GameBoard() {
                 <div className="text-4xl font-bold text-gray-300">VS</div>
                 <div className="text-center">
                   <p className="text-lg font-medium text-rose-600 mb-4">
-                    Computer's Choice
+                    Computer&apos;s Choice
                   </p>
                   <ChoiceButton
                     choice={finalChoices.computer}
